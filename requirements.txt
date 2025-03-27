@@ -4,5 +4,6 @@ pandas
 pillow
 tensorflow
 matplotlib
+gdown
 requests
 googletrans==4.0.0-rc1
