@@ -304,5 +304,5 @@ elif st.session_state.current_page == t("Crop Analysis"):
     crop_prediction()
 elif st.session_state.current_page == t("Farma Bot"):
     st.title("🤖 Farma Bot")
-    with open("D:\\projectHack\\chat.py", "r", encoding="utf-8") as f:
+    with open("chat.py", "r", encoding="utf-8") as f:
         exec(f.read())
